@@ -7,7 +7,7 @@ const state = false
 export default function Home() {
   return (
     <div>
-      <Button className={cn("bg-red-50", state && "bg-green-400")}></Button>
+      <Button className={cn("bg-red-500", state && "bg-green-400")}></Button>
     </div>
   )
 }
